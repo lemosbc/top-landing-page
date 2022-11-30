@@ -84,3 +84,46 @@ ul {
   font-size: 1.2em;
   font-weight: bold;
 }
+
+.tile-outline {
+  border: 3px solid var(--blue);
+  width: 150px;
+  height: 150px;
+  border-radius: 5%;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  padding-bottom: 100px;
+}
+
+.tiles {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  gap: 50px;
+}
+
+.info-title {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.tile-text {
+  text-align: center;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  width: 150px;
+}

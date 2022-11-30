@@ -124,6 +124,29 @@ ul {
   align-items: center;
 }
 
-p {
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-grey);
+  color: var(--dark-blue);
+  padding: 100px 200px;
+}
+
+.tile-text {
   width: 150px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-weight: bold;
+  padding: 0px;
+  margin: -5px 0px 0px 0px;
 }

@@ -44,3 +44,43 @@ ul {
   padding-right: 16px;
   margin-right: 100px;
 }
+
+.hero {
+  background-color: var(--dark-blue);
+}
+
+.hero-title {
+  color: var(--white);
+  font-size: 48px;
+  font-weight: bolder;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-subtext {
+  color: var(--light-grey);
+  font-size: 18px;
+}
+
+.hero-img {
+  width: 500px;
+  height: auto;
+  border-radius: 5%;
+}
+
+.hero {
+  display: flex;
+  padding: 100px;
+  gap: 50px;
+  justify-content: space-around;
+}
+
+.hero-button {
+  background-color: var(--blue);
+  color: var(--white);
+  border: 0;
+  border-radius: 10%;
+  padding: 10px 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
